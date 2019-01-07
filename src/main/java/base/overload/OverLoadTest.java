@@ -5,8 +5,8 @@ import java.io.Serializable;
 /**
  * 重载的调用顺序
  * 利用这个方式测试，就能得到相应的结果
- * char>int>long>Character>Serializable>Object>char…
- * 基本变量>引用类型>实现的接口>继承的父类>参数的个数
+ * char>int>long>Character>Serializable>char…>Object
+ * 基本变量 > 引用类型 > 实现的接口 > 数组 > 继承的父类(Object)
  * 参考地址：https://blog.csdn.net/weixin_41751625/article/details/79968522
  * @Author: 钟燕
  * @Description:
