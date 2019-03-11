@@ -15,10 +15,10 @@ public class StringTest {
 
         String c = null, d = null;
         String m = c + d;
-        System.out.println(m);  // ??
-        System.out.println(m.equals("nullnull"));  // ??
-        System.out.println(m == "nullnull");  // ??
-        System.out.println(m.getClass());  // ??
+        System.out.println(m);  // nullnull
+        System.out.println(m.equals("nullnull"));  // true
+        System.out.println(m == "nullnull");  // false
+        System.out.println(m.getClass());  // class java.lang.String
 
     }
 }
